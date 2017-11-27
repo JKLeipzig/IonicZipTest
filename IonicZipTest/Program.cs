@@ -27,7 +27,7 @@ namespace IonicZipTest
 
          String password = "123456";
 
-         // this one creates zip withour encryption
+         // this one creates zip without encryption
          doZipFile(fileEmpty, zipEmpty, password);
 
          // this one works as excpeted
