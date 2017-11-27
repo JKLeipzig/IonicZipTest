@@ -30,7 +30,7 @@ namespace IonicZipTest
          // this one creates zip without encryption
          doZipFile(fileEmpty, zipEmpty, password);
 
-         // this one works as excpeted
+         // this one works as expected
          doZipFile(fileFilled, zipFilled, password);
       }
    }
